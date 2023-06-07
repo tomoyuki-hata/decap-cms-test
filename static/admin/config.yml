@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: tomoyuki-hata/decap-cms-test
   branch: main # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
