@@ -3,6 +3,8 @@ backend:
   repo: tomoyuki-hata/decap-cms-test
   branch: main # Branch to update (optional; defaults to master)
 
+local_backend: true
+
 publish_mode: editorial_workflow
 
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
