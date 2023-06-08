@@ -3,7 +3,6 @@ backend:
   repo: tomoyuki-hata/decap-cms-test
   branch: main # Branch to update (optional; defaults to master)
 
-local_backend: true
 locale: "ja"
 
 publish_mode: editorial_workflow
