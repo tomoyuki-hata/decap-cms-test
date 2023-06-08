@@ -56,8 +56,4 @@ Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit 
 
 ![](/images/uploads/naxos-ge4bbfc0c3_1280.jpg)
 
-
-
-
-
-t﻿est
+t﻿esttest
