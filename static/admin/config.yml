@@ -5,6 +5,8 @@ backend:
 
 local_backend: true
 
+locale: "ja"
+
 publish_mode: editorial_workflow
 
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
@@ -25,6 +27,18 @@ collections:
   - name: "rich-content"
     label: "Rich-content"
     folder: "content/post/rich-content"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "placeholder-text"
+    label: "Placeholder-text"
+    folder: "content/post/placeholder-text"
     create: true
     slug: "{{slug}}"
     editor:
